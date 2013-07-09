@@ -1,30 +1,16 @@
-﻿<html>
+﻿  <!DOCTYPE html>
+<html>
 <head>
-	<title>{{ site.title }}- {{ site.title }}</title>
+	<title>{{ site.title }}</title>
         {% include meta-link.md %}
 </head>
 <body>
-   <div id="page">
+   <div id="container">
       {% include header.md %}
-      <div id="content">
-          <!--left begin-->
-          <div id="left">
-            {% include information.md%}
-            {% include tags.md%}
-          </div>
-          <!--left end-->
-          <!--main begin-->
-          <div id="main">
-                 {{content}}
-            {% include footer.md%}
-          </div>
-          <!--main end-->
-          <!--right begin-->
-          <div id="right">
-            {% include word.md%}
-            {% include friends.md%}
-          </div>
-          <!--right end-->
-      </div>
+	  <div section="body-content" style="padding:10px 20px;">
+		 {{ content }}
+	  </div>
+   </div>
+   {% include footer.md %}
 </body>
 </html>

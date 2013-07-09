@@ -1,31 +1,19 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html>
 <head>
 	<title>{{ site.title }}</title>
         {% include meta-link.md %}
 </head>
 <body>
-   <div id="page">
+   <div id="container">
       {% include header.md %}
-      <div id="content">
-          <!--left begin-->
-          <div id="left">
-            {% include information.md%}
-            {% include tags.md%}
-          </div>
-          <!--left end-->
-          <!--main begin-->
-          <div id="main">
-            {% include slider.md%}
-            {% include new_article.md%}
-            {% include footer.md%}
-          </div>
-          <!--main end-->
-          <!--right begin-->
-          <div id="right">
-            {% include word.md%}
-            {% include friends.md%}
-          </div>
-          <!--right end-->
-      </div>
+      {% include information.md %}
+	  <div section="body-content"  style="padding:0px 20px;">
+         <h1>最新文章</h1>
+		 {{ content }}
+	  </div>
+
+   </div>
+   {% include footer.md %}
 </body>
 </html>

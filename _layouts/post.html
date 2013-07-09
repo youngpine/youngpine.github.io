@@ -5,22 +5,12 @@
     {% include meta-link.md %}
 </head>
 <body>
-   <div id="page">
-      {% include header.md %}
-      <div id="content">
-          <!--left begin-->
-          <div id="left">
-            {% include information.md%}
-            {% include tags.md%}
-          </div>
-          <!--left end-->
-          <!--main begin-->
-          <div id="main">
-            <div id="list">
-              <h3>{{ page.title }}</h3>
-				{{ content }}
-            </div>
+    <div id="container">
+        {% include header.md %}
+            <div id="content" style="padding:10px 20px">
+			<h5>{{ page.title }}</h5>
 
+				{{ content }}
 
 				<ol class="pager">
 					{% if page.previous %}
@@ -40,20 +30,6 @@
 					</li>
 					{% endif %}
 				</ol>
-            {% include footer.md%}
-          </div>
-          <!--main end-->
-          <!--right begin-->
-          <div id="right">
-            {% include word.md%}
-            {% include friends.md%}
-          </div>
-          <!--right end-->
-      </div>
-    <div id="container">
-        {% include header.md %}
-            <div id="content" style="padding:10px 20px">
-			
            </div>
    </div>
    	  {% include footer.md %}
