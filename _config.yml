@@ -1,6 +1,7 @@
 ﻿safe: true
 lsi: false
 pygments: true
+markdown: redcarpet
 auto: true
 title: "松的博客"
 public_url: "http://youngpine.github.com"
