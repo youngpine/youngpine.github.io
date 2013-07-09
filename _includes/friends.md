@@ -1,25 +1,12 @@
-<table class="group">
-    <tbody>
-		<tr>
-			<td>陈树煌</td>
-			<td>胡姝雯</td>
-			<td>廖光东</td>
-			<td>黄逸琛</td>
-			<td>尹海施</td>
-		</tr>
-		<tr>
-			<td>陈火城</td>
-			<td>张智杰</td>
-			<td>刘媛</td>
-			<td>刘铮</td>
-			<td>曾晓玲</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
+        <div id="friends">
+               <h2>我的博友</h2>
+               <ul>
+                  <li>某某某</li>
+                  <li>某某某</li>
+                  <li>某某某</li>
+                  <li>某某某</li>
+                  <li>某某某</li>
+                  <li>某某某</li>
+                  <li>某某某</li>
+              </ul>
+           </div>
