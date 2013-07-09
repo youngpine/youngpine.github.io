@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }}- {{ site.title }}</title>
+    {% include meta-link.md %}
+</head>
+<body>
+   <div id="page">
+      {% include header.md %}
+      <div id="content">
+          <!--left begin-->
+          <div id="left">
+            {% include information.md%}
+            {% include tags.md%}
+          </div>
+          <!--left end-->
+          <!--main begin-->
+          <div id="main">
+            <div id="list">
+              <h3>{{ page.title }}</h3>
+				{{ content }}
+            </div>
+
+
+				<ol class="pager">
+					{% if page.previous %}
+					<li class="previous"><a href="{{ page.previous.url }}">上一篇：{{ page.previous.title }}</a></li>
+					{% else %}
+					<li class="previous disabled">
+					<a href="#">上一篇：没有了</a>
+					</li>
+					{% endif %}
+					{% if page.next %}
+					<li class="next">
+					<a href="{{ page.next.url }}">下一篇：{{ page.next.title }}</a>
+					</li>
+					{% else %}
+					<li class="next disabled">
+					<a href="#">下一篇：没有了</a>
+					</li>
+					{% endif %}
+				</ol>
+            {% include footer.md%}
+          </div>
+          <!--main end-->
+          <!--right begin-->
+          <div id="right">
+            {% include word.md%}
+            {% include friends.md%}
+          </div>
+          <!--right end-->
+      </div>
+    <div id="container">
+        {% include header.md %}
+            <div id="content" style="padding:10px 20px">
+			
+           </div>
+   </div>
+   	  {% include footer.md %}
+</body>
+</html>
