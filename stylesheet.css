@@ -7,7 +7,7 @@
 }
 body{
 	background:#e6e6e6;
-	font-size:14px;
+	font:14px Tahoma,Helvetica,Arial,"宋体",sans-serif;
 	line-height:1.5;
 }
 a,a:link,a:visited{
@@ -32,7 +32,7 @@ h2{
 	font-weight: bold;
 	border-bottom:1px #000 solid;
 }
-h2{
+h3{
 	font-size: 16px;
 	font-weight: bold;
 	text-align:center;
@@ -136,7 +136,7 @@ h2{
 	text-align:center;
 }
 /*box3 4 5*/
-#tags,#new_article,#friends,#list{
+#tags,#new_article,#friends{
 	margin-top:10px;
 	background:#fff;
 	display:block;
@@ -175,4 +175,9 @@ h2{
 /**for list*/
 #list{
 	min-height:453px;
+	background:#fff;
+	display:block;
+	padding:10px 20px;
+	box-shadow:rgba(0,0,0,0.3) 0 1px 2px;
+	border-radius: 4px;
 }
