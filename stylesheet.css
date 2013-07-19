@@ -37,6 +37,10 @@ h3{
 	font-weight: bold;
 	text-align:center;
 }
+h4{
+	font-size: 15px;
+	font-weight: bold;
+}
 /*header*/
 #header{
 	height:40px;
@@ -202,4 +206,8 @@ h3{
     cursor:pointer;
 	height:30px;
 	width:50px
+}
+#add_content p{
+	border-bottom:1px solid #000;
+	margin-bottom:10px;
 }
