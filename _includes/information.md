@@ -6,5 +6,6 @@
               <li>网页设计</li>
               <li>前端开发</li>
               <li>UED设计</li>
+			  <li>JavaScript</li>
               </ul>
  </div>

@@ -107,7 +107,7 @@ h3{
 #information{
 	background:#fff;
 	display:block;
-	padding:10px 20px;
+	padding:20px 20px;
 	box-shadow:rgba(0,0,0,0.3) 0 1px 2px;
 	border-radius: 4px;
 }
@@ -119,10 +119,10 @@ h3{
 }
 /*box2*/
 #words{
-	height:173px;
+	height:201px;
 	background:#fff;
 	display:block;
-	padding:10px 20px;
+	padding:20px 20px;
 	box-shadow:rgba(0,0,0,0.3) 0 1px 2px;
 	border-radius: 4px;
 }
@@ -174,10 +174,32 @@ h3{
 
 /**for list*/
 #list{
-	min-height:453px;
+	min-height:501px;
 	background:#fff;
 	display:block;
 	padding:10px 20px;
 	box-shadow:rgba(0,0,0,0.3) 0 1px 2px;
 	border-radius: 4px;
+}
+/*for add article*/
+.new_writting{
+   margin-top:10px;
+}
+.before_info{
+	float:left;
+	display:inline;
+	width:60px;
+	text-align:right;
+}
+#con_submit{
+	margin:3px auto;
+	height:30px;
+	width:100px;
+	}
+.con_button{
+	float:left;
+	text-align:center;
+    cursor:pointer;
+	height:30px;
+	width:50px
 }
