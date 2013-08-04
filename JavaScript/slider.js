@@ -1,4 +1,4 @@
-window.onload=function(){
+window.onload=colorChange;
 var thisImg=0;
 function rotate(){
 	var sImages=new Array("images/slider.jpg","images/slider1.jpg");
@@ -21,6 +21,7 @@ function colorChange(){
 	}	
 	bgChange1.onmouseover=changeColorover;
 	bgChange1.onmouseout=changeColorout;
+	rotate;
 	
 }
 function changeColorover(){
@@ -29,4 +30,3 @@ function changeColorover(){
 function changeColorout(){
 	this.style.background="#f3dfba";
 } 
-}
