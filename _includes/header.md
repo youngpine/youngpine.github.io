@@ -1,12 +1,12 @@
 <!-- header -->
 <div id="header">
-      <h1><a href="/" target="_self">松的博客</a></h1>
+      <a href="/" target="_self"><h1 id="name">松的博客</h1></a>
       <ul class="nav">
-          <li><a href="/" target="_self">首页</a></li>
-          <li><a href="/page.html" target="_self">博文</a></li>
-          <li><a href="/production.html" target="_self">作品</a></li>
-          <li><a href="/message.html" target="_self">留言</a></li>
-          <li><a href="/about.html" target="_self">关于</a></li>
+          <a href="/" target="_self"><li>首页</li></a>
+          <a href="/page.html" target="_self"><li>博文</li></a>
+          <a href="/production.html" target="_self"><li>作品</li></a>
+          <a href="/message.html" target="_self"><li>留言</li></a>
+          <a href="/about.html" target="_self"><li>关于</li></a>
       </ul>
       <div id="search">
        <script type="text/javascript">
