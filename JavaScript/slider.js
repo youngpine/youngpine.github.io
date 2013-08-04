@@ -1,4 +1,4 @@
-window.onload=rotate;
+window.onload=function(){
 var thisImg=0;
 function rotate(){
 	var sImages=new Array("images/slider.jpg","images/slider1.jpg");
@@ -8,6 +8,8 @@ function rotate(){
 	}
 	document.getElementById("sliderImg").src=sImages[thisImg];
 	setTimeout(rotate,2*1000);
+}
+function colorChange(){
 	var bgChange=document.getElementById("nav");
 	var bgChange1=document.getElementById("name");
 	for(var i=0;i<bgChange.childNodes.length;i++){
@@ -19,6 +21,7 @@ function rotate(){
 	}	
 	bgChange1.onmouseover=changeColorover;
 	bgChange1.onmouseout=changeColorout;
+	
 }
 function changeColorover(){
 	this.style.background="#fff";
@@ -26,3 +29,4 @@ function changeColorover(){
 function changeColorout(){
 	this.style.background="#f3dfba";
 } 
+}
