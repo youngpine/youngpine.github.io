@@ -14,15 +14,15 @@ $thread = $guestbook->createElement('thread');
 $threads->appendChild($thread); 
 //在新的 thread节点上创建 title标签 
 $title = $guestbook->createElement('title'); 
-$title->appendChild($guestbook->createTextNode($_POST['title'])); 
+$title->appendChild($guestbook->createTextNode($_GET['title'])); 
 $thread->appendChild($title); 
 //在新的 thread节点上创建 author标签 
 $author = $guestbook->createElement('author'); 
-$author->appendChild($guestbook->createTextNode($_POST['author'])); 
+$author->appendChild($guestbook->createTextNode($_GET['author'])); 
 $thread->appendChild($author); 
 //在新的 thread节点上创建 content标签 
 $content = $guestbook->createElement('content'); 
-$content->appendChild($guestbook->createTextNode($_POST['content'])); 
+$content->appendChild($guestbook->createTextNode($_GET['content'])); 
 $thread->appendChild($content); 
 //将 XML数据写入文件 
 $fp = fopen("./guestbook.xml", "w"); 
