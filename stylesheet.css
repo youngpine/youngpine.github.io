@@ -40,6 +40,7 @@ h3{
 h4{
 	font-size: 15px;
 	font-weight: bold;
+	background:#f3dfba;
 }
 /*header*/
 #header{
@@ -208,7 +209,7 @@ h4{
 	width:50px
 }
 #add_content p{
-	border-bottom:1px solid #000;
+    background:#FF6;
 	margin-bottom:10px;
 	padding:10px 0;
 }
