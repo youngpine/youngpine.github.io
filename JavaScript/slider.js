@@ -5,7 +5,7 @@ function colorChange(){
 	var bgChange=document.getElementsByTagName("ul");
 	var bgChange1=document.getElementById("name");
 	var bgChange2=document.getElementById("nav")
-	if(bgChange.childNodes.tagName == "A"){
+	if(bgChange.childNodes.tagName == "a"){
 	  for(var i=0;i<bgChange.childNodes.length;i++){
 		var bgChanges=bgChange.childNodes[i];
 		for(var j=0;j<bgChanges.childNodes.length;j++){
