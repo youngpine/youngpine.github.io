@@ -4,7 +4,7 @@ window.onload=colorChange;
 function colorChange(){
 	var bgChange=document.getElementsByTagName("ul");
 	var bgChange1=document.getElementById("name");
-	var bgChange2=bgChange.getElementById("nav")
+	var bgChange2=document.getElementById("nav")
 	if(bgChange.childNodes.tagName == "A"){
 	  for(var i=0;i<bgChange.childNodes.length;i++){
 		var bgChanges=bgChange.childNodes[i];
@@ -19,7 +19,7 @@ function colorChange(){
 	rotate();	
 }
 function changeColorover(){
-	if(bgChange2){
+	if(bgChange2||bgChange1){
 	     this.style.background="#fff";
 	}
 	else{
