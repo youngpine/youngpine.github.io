@@ -4,6 +4,6 @@ layout: default_index
 ---
 <ul>
 {% for p in paginator.posts %}
-		<li><span>{{ p.date | date: "%Y-%m-%d" }}</span><a href="{{ p.url }}">{{ p.title }}</a></li>
+		<a href="{{ p.url }}"><li><span>{{ p.date | date: "%Y-%m-%d" }}</span>{{ p.title }}</li></a>
 {% endfor %}
 </ul>
