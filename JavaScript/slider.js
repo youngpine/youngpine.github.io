@@ -1,7 +1,40 @@
 window.onload=colorChange;
 
 	var thisImg=0;
-	function rotate(){
+function colorChange(){
+	var bgChange=document.getElementByTagName("ul");
+	var bgChange1=document.getElementById("name");
+	var bgChange2=bgChange.getElementById("nav")
+	if(bgChange.childNodes.tagName == "A"){
+	  for(var i=0;i<bgChange.childNodes.length;i++){
+		var bgChanges=bgChange.childNodes[i];
+		for(var j=0;j<bgChanges.childNodes.length;j++){
+		   bgChanges.childNodes[j].onmouseover=changeColorover;
+		   bgChanges.childNodes[j].onmouseout=changeColorout;
+		}
+	  }
+	}
+	bgChange1.onmouseover=changeColorover;
+	bgChange1.onmouseout=changeColorout;
+	rotate();	
+}
+function changeColorover(){
+	if(bgChange2){
+	     this.style.background="#fff";
+	}
+	else{
+		this.style.background="#ebe9e9"
+	}
+} 
+function changeColorout(){
+	if(bgChange2){
+	    this.style.background="#f3dfba";
+	}
+	else{
+		this.style.background="#fff"
+	}
+} 
+function rotate(){
 
 	var sImages=new Array("images/slider.jpg","images/slider1.jpg");
 	thisImg++;
@@ -11,23 +44,3 @@ window.onload=colorChange;
 	document.getElementById("sliderImg").src=sImages[thisImg];
 	setTimeout(rotate,2*1000);
 }
-function colorChange(){
-	var bgChange=document.getElementById("nav");
-	var bgChange1=document.getElementById("name");
-	for(var i=0;i<bgChange.childNodes.length;i++){
-		var bgChanges=bgChange.childNodes[i];
-		for(var j=0;j<bgChanges.childNodes.length;j++){
-		   bgChanges.childNodes[j].onmouseover=changeColorover;
-		   bgChanges.childNodes[j].onmouseout=changeColorout;
-		}
-	}	
-	bgChange1.onmouseover=changeColorover;
-	bgChange1.onmouseout=changeColorout;
-	rotate();	
-}
-function changeColorover(){
-	this.style.background="#fff";
-} 
-function changeColorout(){
-	this.style.background="#f3dfba";
-} 

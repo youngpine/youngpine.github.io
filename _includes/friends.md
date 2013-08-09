@@ -1,6 +1,6 @@
         <div id="friends">
                <h2>我的博友</h2>
-               <ul>
+               <ul class="linkBgChange">
                   <li>陈树煌</li>
                   <li>张智杰</li>
                   <li>胡淑雯</li>

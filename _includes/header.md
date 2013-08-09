@@ -1,7 +1,7 @@
 <!-- header -->
 <div id="header">
       <a href="/" target="_self"><h1 id="name">松的博客</h1></a>
-      <ul id="nav">
+      <ul id="nav" class="linkBgChange">
           <a href="/" target="_self"><li>首页</li></a>
           <a href="/page.html" target="_self"><li>博文</li></a>
           <a href="/production.html" target="_self"><li>作品</li></a>

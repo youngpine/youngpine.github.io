@@ -1,11 +1,11 @@
 <div id="tags">
 <h2>标签</h2>
-<ul>
+<ul class="linkBgChange">
 {% for tag in site.tags %}
-<li id="{{ tag[0] }}-ref"><a href="/page.html">{{ tag[0] }}</a></li>
+<a href="/page.html"><li id="{{ tag[0] }}-ref">{{ tag[0] }}</li></a>
 {% endfor %}
-{% for tag in site.tags %}
-<li id="{{ cat[0] }}-ref"><a href="/production.html">{{ cat[0] }}</a></li>
+{% for cat in site.categories %}
+<a href="/production.html"><li id="{{ cat[0] }}-ref">{{ cat[0] }}</li></a>
 {% endfor %}
 </ul>
 </div>
