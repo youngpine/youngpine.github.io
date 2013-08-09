@@ -4,10 +4,10 @@ layout: post
 tags: [教程]
 ---
 
-<strong>一、综述</strong>
+<p><strong>一、综述</strong></p>
   抛去所有形式之后，终究还是html+css的事。
   了解文档结构能帮助我们回到本源。
-<strong>二、文档结构简析</strong>
+<p><strong>二、文档结构简析</strong></p>
   github博客有其管理文件规范，主要有：_includes、_layout、posts、_config.yml、index.html、page.html、Github.sln，其余文件都可以按照自己的进行操作。
 
   _includes：这里面放的是一个网页的可重复部分，相当于把一个正常的网页拆分，使得可重复的部分可以被重复的利用。
@@ -21,7 +21,7 @@ tags: [教程]
   page.html：这是一个神奇的页面，可以自动的吧你所有的文章按照一定标签（这个标签就是posts里面每篇文章的最前面tags后面的名称）分类，便于查阅。
 
   其余的设计：images、javascript、stylesheets，相信意思是很容易明白的，因为这是做网页的必须文件。
-<strong>三、博客制作</strong>
+<p><strong>三、博客制作</strong></p>
   关于制作博客，网上已经有了很多教程，我这里主要说的是依靠已有模板制作：首先登陆：http://github.com/youngpine/study下载整个文档，这样就实现了文档的构建。
   
   1、这里面有许多的个人信息包含在了_config、Github.sln等文件中，需要自己做修改。
@@ -34,7 +34,7 @@ tags: [教程]
   4、复制到自己的电脑，并用已有文档进行替换。
   
   5、接下来基本就是网页的基本制作了。
-<strong>四、内容格式</strong>
+<p><strong>四、内容格式</strong></p>
   1、post里面的文章的规格：首先要有模板引用和tag以及categories说明。其格式是：
    <pre class="code">
   <p> title：Hello,world!<br/>
@@ -44,7 +44,7 @@ tags: [教程]
    </pre>
    
   2、每个文件中{%***%}中的内容属于引用模块，如果掌握了将网页划分为不同的区域，你就可以实现很多文件的重复利用。
-<strong>五、参考教程</strong>
+<p><strong>五、参考教程</strong></p>
   <p><a href="http://ce.sysu.edu.cn/hope/Item/103719.aspx">http://ce.sysu.edu.cn/hope/Item/103719.aspx</a></p>
   
   <p><a href="http://www.freehao123.com/github-pages/">http://www.freehao123.com/github-pages/</a></p>
