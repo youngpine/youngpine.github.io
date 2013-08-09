@@ -2,8 +2,6 @@
 title: 首页
 layout: default_index
 ---
-<ul>
 {% for p in paginator.posts %}
 		<a href="{{ p.url }}"><li><span>{{ p.date | date: "%Y-%m-%d" }}</span>{{ p.title }}</li></a>
 {% endfor %}
-</ul>
