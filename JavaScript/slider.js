@@ -5,14 +5,14 @@ function colorChange(){
 	var bgChange=document.getElementsByTagName("ul");
 	var bgChange1=document.getElementById("name");
 	var bgChange2=document.getElementById("nav")
-	if(bgChange.childNodes.tagName == "a"){
-	  for(var i=0;i<bgChange.childNodes.length;i++){
+	for(var i=0;i<bgChange.childNodes.length;i++){
 		var bgChanges=bgChange.childNodes[i];
-		for(var j=0;j<bgChanges.childNodes.length;j++){
-		   bgChanges.childNodes[j].onmouseover=changeColorover;
-		   bgChanges.childNodes[j].onmouseout=changeColorout;
-		}
-	  }
+		if(bgChanges.tagName == "a"){
+		   for(var j=0;j<bgChanges.childNodes.length;j++){
+		       bgChanges.childNodes[j].onmouseover=changeColorover;
+		       bgChanges.childNodes[j].onmouseout=changeColorout;
+		   }
+	    }
 	}
 	bgChange1.onmouseover=changeColorover;
 	bgChange1.onmouseout=changeColorout;
@@ -27,7 +27,7 @@ function changeColorover(){
 	}
 } 
 function changeColorout(){
-	if(bgChange2){
+	if(bgChange2||bgChange1){
 	    this.style.background="#f3dfba";
 	}
 	else{
