@@ -10,6 +10,6 @@ owner:
   name: "陈古松"
   mail: "1036720429@qq.com"
 disqus:
-  short_name: "youngpine-github"
+  short_name: "youngpine"
 paginate: 10
 exclude: [start-jekyll.bat, Github.sln, Github.v11.suo]
