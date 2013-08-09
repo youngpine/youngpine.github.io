@@ -2,7 +2,7 @@ window.onload=colorChange;
 
 	var thisImg=0;
 function colorChange(){
-	var bgChange=document.getElementByTagName("ul");
+	var bgChange=document.getElementsByTagName("ul");
 	var bgChange1=document.getElementById("name");
 	var bgChange2=bgChange.getElementById("nav")
 	if(bgChange.childNodes.tagName == "A"){
