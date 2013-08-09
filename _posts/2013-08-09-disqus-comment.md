@@ -27,5 +27,5 @@ var disqus_shortname = 'example'; // 注意，这里的 example 要替换为你�
 在_config里面添加信息：<br/>
 disqus:
   short_name: "youngpine"
-  ####四、提交####
+####四、提交####
 这样就简简单单的完成了github博客的评论功能了，由于其虽然插入了个iframe框架但框架恒定，所以读者也可以根据css、JS等对代码控制实现自己的风格。最后剩下的就是提交了！！！
