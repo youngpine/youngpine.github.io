@@ -4,11 +4,11 @@ layout: post
 tags: [Github]
 ---
 
-<p>DisQus 是一款很好的社交评论插件，只要在你的页面加上一段 js ，在你的DisQus 账户中就可以很方便地查看别人的评论。</p>
-<p><strong>一、注册账户</strong></p>
-<p>&nbsp;&nbsp;登陆<a href="http://www.disqus.com/">DisQus官网，需要填写的地方分别是：Site URL，Site Name，Site Shortname。 注意：这3个都是必须要填写的，而且，短域名将会在最后的 install 中使用到。</a></p>
-<p><strong>二、获取代码</strong></p>
-<p>&nbsp;&nbsp;在_layouts的相应区域加入如下代码：</p>
+DisQus 是一款很好的社交评论插件，只要在你的页面加上一段 js ，在你的DisQus 账户中就可以很方便地查看别人的评论。
+####一、注册账户####
+登陆<a href="http://www.disqus.com/">DisQus官网</a>，需要填写的地方分别是：Site URL，Site Name，Site Shortname。 注意：这3个都是必须要填写的，而且，短域名将会在最后的 install 中使用到。
+####二、获取代码####
+在_layouts的相应区域加入如下代码：
 <pre class="code">
   &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script type="text/javascript"&gt;
@@ -23,9 +23,9 @@ var disqus_shortname = 'example'; // 注意，这里的 example 要替换为你�
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 &lt;a href="http://disqus.com" class="dsq-brlink"&gt;blog comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
    </pre>
-<p><strong>三、修改_config</strong></p>
-<p>&nbsp;&nbsp;在_config里面添加信息：<br/>
+####三、修改_config####
+在_config里面添加信息：<br/>
 disqus:
-  short_name: "youngpine"</p>
-  <p><strong>四、提交</strong></p>
-<p>&nbsp;&nbsp;这样就简简单单的完成了github博客的评论功能了，由于其虽然插入了个iframe框架但框架恒定，所以读者也可以根据css、JS等对代码控制实现自己的风格。最后剩下的就是提交了！！！</p>
+  short_name: "youngpine"
+  ####四、提交####
+这样就简简单单的完成了github博客的评论功能了，由于其虽然插入了个iframe框架但框架恒定，所以读者也可以根据css、JS等对代码控制实现自己的风格。最后剩下的就是提交了！！！
