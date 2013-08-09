@@ -5,7 +5,7 @@ markdown: redcarpet
 auto: true
 title: "松的博客"
 public_url: "http://youngpine.github.com"
-keywords: "mono, ios, android, silverlight, asp.net mvc, asp.net web api, nhibernate, c, sql server, xml, linux, mac osx"
+keywords: "android,xml,html,JavaScript,css"
 owner:
   name: "陈古松"
   mail: "1036720429@qq.com"
