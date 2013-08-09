@@ -4,10 +4,10 @@ layout: default
 ---
 
  <div id="list">
-    {% for tag in site.tags %}
-      <h2 id="{{ tag[教程] }}-ref">{{ tag[教程] }}</h2>
+      {% for cat in site.categories %}
+      <h2 id="{{ cat[0] }}-ref">{{ cat[0] }}</h2>
       <ul>
-	    {% for post in tag[1] %}
+	    {% for post in cat[1] %}
 		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 	    {% endfor %}
       </ul>
