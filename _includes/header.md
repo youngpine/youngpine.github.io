@@ -18,10 +18,12 @@
 			    }
 			}
 			</script>
-      <form method="post" action="http://www.google.com/search" name="c_search">
-      <input type="text" id="search_text" name="search_text" onfocus="if(this.value == '搜索') {this.value = '';}" onblur="if (this.value == '') {this.value = '搜索';}" />
-	  <input type="hidden" value="youngpine.github.io"/>
-	  <input type="submit" id="search_button" name="search_button" value="搜索" /></input></input>
+      <form method="get" action="http://www.google.com/search" name="c_search">
+      <input type="text" id="search_text" name="q" onfocus="if(this.value == '搜索') {this.value = '';}" onblur="if (this.value == '') {this.value = '搜索';}" />
+	  <input type="hidden" name="oe" value="GB2312"/>
+	  <input type="hidden" name="hl" value="zh-CN"/>
+	  <input type="hidden" name="as_sitesearch" value="youngpine.github.io">
+	  <input type="submit" id="search_button" name="search_button" value="搜索" />
       </form>
       </div>
     </div>
