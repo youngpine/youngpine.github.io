@@ -2,6 +2,7 @@
 title: Github博客文件结构简析
 layout: post
 tags: [教程]
+description:初次接触Github，谈谈其文档结构
 ---
 
 ####一、综述####

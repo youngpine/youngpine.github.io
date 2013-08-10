@@ -5,7 +5,7 @@ markdown: redcarpet
 auto: true
 title: "松的博客"
 public_url: "http://youngpine.github.com"
-keywords: "android,xml,html,JavaScript,css"
+keywords: "android,xml,html,JavaScript,css,Github"
 owner:
   name: "陈古松"
   mail: "1036720429@qq.com"
