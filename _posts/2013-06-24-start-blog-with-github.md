@@ -1,6 +1,7 @@
 ---
 title: Github博客文件结构简析
 description: 初次接触Github，谈谈其文档结构
+keywords: github
 layout: post
 tags: [教程]
 ---
@@ -8,7 +9,7 @@ tags: [教程]
 ####一、综述####
   抛去所有形式之后，终究还是html+css的事。了解文档结构能帮助我们回到本源。
 ####二、文档结构简析####
-  github博客有其管理文件规范，主要有：_includes、_layout、posts、_config.yml、index.html、page.html、Github.sln，其余文件都可以按照自己的进行操作。
+  github博客有其管理文件规范，主要有：_include、_layout、posts、_config.yml、index.html、page.html、Github.sln，其余文件都可以按照自己的进行操作。
 
   _includes：这里面放的是一个网页的可重复部分，相当于把一个正常的网页拆分，使得可重复的部分可以被重复的利用。
 
@@ -45,7 +46,7 @@ tags: [教程]
    
   2、每个文件中{***}中的内容属于引用模块，如果掌握了将网页划分为不同的区域，你就可以实现很多文件的重复利用。
 ####五、参考教程####
-　　<a href="http://ce.sysu.edu.cn/hope/Item/103719.aspx">http://ce.sysu.edu.cn/hope/Item/103719.aspx</a>
+　<a href="http://ce.sysu.edu.cn/hope/Item/103719.aspx">http://ce.sysu.edu.cn/hope/Item/103719.aspx</a>
   
   <a href="http://www.freehao123.com/github-pages/">http://www.freehao123.com/github-pages/</a>
   
