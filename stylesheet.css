@@ -10,6 +10,9 @@ body{
 	font:14px Tahoma,Helvetica,Arial,"宋体",sans-serif;
 	line-height:1.5;
 }
+em{
+	font:14px Tahoma,Helvetica,Arial,"宋体",sans-serif;
+}
 a,a:link,a:visited{
 	color:#000;
 	text-decoration:none;
