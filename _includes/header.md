@@ -19,7 +19,7 @@
 			}
 			</script>
       <form method="get" action="http://www.google.com/search" name="c_search">
-      <input type="text" id="search_text" name="q" onfocus="if(this.value == '搜索') {this.value = '';}" onblur="if (this.value == '') {this.value = '搜索';}" />
+      <input type="text" id="search_text" name="q" />
 	  <input type="hidden" name="oe" value="GB2312"/>
 	  <input type="hidden" name="hl" value="zh-CN"/>
 	  <input type="hidden" name="as_sitesearch" value="youngpine.github.io">
