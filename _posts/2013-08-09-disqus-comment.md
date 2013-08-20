@@ -2,6 +2,7 @@
 title: 为博客添加 DisQus 评论
 description: DisQus是很好的第三方留言、评论功能系统，使用它轻松完成github博客评论
 layout: post
+keywords: disqus 博客评论
 tags: [教程]
 ---
 
